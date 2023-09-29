@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* set an element style, you dont need peiod or pound symbol */
+body {
+  height: 100vh;
+  background: #0f62fe;
+}
+
+/* indivisual elements styling */
+/* for header in the body element */
+#head-text {
+  margin-top: 50px;
+  margin-left: 10x;
+  font-family: sans-serif;
+  color: #0f62fe;
+}
+
+.container {
+  width: 40%;
+  top: 30%;
+  left: 50%;
+  background: white;
+  border-radius: 1px;
+  min-width: 450px;
+  min-height: 100px;
+  transform: translate(-50%, -50%);
+}
